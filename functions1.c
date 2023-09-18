@@ -18,7 +18,7 @@ int print_unsigned(va_list types, char buffer[],
 	unsigned long int num = va_arg(types, unsigned long int);
 
 	num = convert_size_unsgnd(num, size);
-if (num == 0)
+	if (num == 0)
 		buffer[i--] = '0';
 
 	buffer[BUFF_SIZE - 1] = '\0';
@@ -78,7 +78,7 @@ int print_octal(va_list types, char buffer[],
 
 /************** PRINT UNSIGNED NUMBER IN HEXADECIMAL **************/
 /**
- * print_hexadecimal - Function that prints an unsigned number in 
+ * print_hexadecimal - Function that prints an unsigned number in
  * hexadecimal notation
  * @types: input param (Lista of arguments)
  * @buffer: Buffer array to handle print
@@ -97,7 +97,7 @@ int print_hexadecimal(va_list types, char buffer[],
 
 /************* PRINT UNSIGNED NUMBER IN UPPER HEXADECIMAL **************/
 /**
- * print_hexa_upper - Functions that prints an unsigned number in 
+ * print_hexa_upper - Functions that prints an unsigned number in
  * upper hexadecimal notation
  * @types: input param (Lista of arguments)
  * @buffer: Buffer array to handle print
