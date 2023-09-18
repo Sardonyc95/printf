@@ -5,11 +5,11 @@
 /**
  * print_char - Function that prints a char
  * @types: input param (List a of arguments)
- * @buffer: input param (Buffer array to handle print)
- * @flags:  input param (Calculates active flags)
- * @width: input param (Width)
- * @precision: input param (Precision specification)
- * @size: input param (Size specifier)
+ * @buffer: Buffer array to handle print
+ * @flags:  Calculates active flags
+ * @width: Width
+ * @precision: Precision specification
+ * @size: Size specifier
  * Return: Number of chars printed
  */
 int print_char(va_list types, char buffer[],
@@ -23,11 +23,11 @@ int print_char(va_list types, char buffer[],
 /**
  * print_string - Function that prints a string
  * @types: input param (List a of arguments)
- * @buffer: input param (Buffer array to handle print)
- * @flags:  input param (Calculates active flags)
- * @width: input param (get width).
- * @precision: input param (Precision specification)
- * @size: input param (Size specifier)
+ * @buffer: Buffer array to handle print
+ * @flags:  Calculates active flags
+ * @width: get width.
+ * @precision: Precision specification
+ * @size: Size specifier
  * Return: Number of chars printed
  */
 int print_string(va_list types, char buffer[],
@@ -74,12 +74,11 @@ int print_string(va_list types, char buffer[],
 
 	return (write(1, str, length));
 }
-
 /************************* PRINT PERCENT SIGN *************************/
 /**
  * print_percent - Function that prints a percent sign
  * @types: input param (Lista of arguments)
- * @buffer: input param (Buffer array to handle print)
+ * @buffer: Buffer array to handle print
  * @flags:  Calculates active flags
  * @width: get width.
  * @precision: Precision specification
@@ -102,7 +101,7 @@ int print_percent(va_list types, char buffer[],
 /**
  * print_int - Function that print int
  * @types: input param (Lista of arguments)
- * @buffer: input param (Buffer array to handle print)
+ * @buffer: Buffer array to handle print
  * @flags:  Calculates active flags
  * @width: get width.
  * @precision: Precision specification
