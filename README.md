@@ -1,13 +1,24 @@
 # printf Team Project by Victoria and David
-## Group project on C - Printf
-### Overview
-##Printf function brief - What to know to create your own Printf function
+                           Group project on C - Printf
+
+## Overview
+### Printf function brief - What to know to create your own Printf function
+
 This is one of many major projects that you will undertake in this program and the essence of this project is for you to put into practice all the concepts that you have been introduced to so far and see how they all work together in a real world use case.
 The printf function is a very important and versatile function in the C programming language and being about to create your custom version of it will go a long way to enhance your understanding of the language.
 The first secret to being able to complete this project successfully is to first get a solid understanding of the printf function itself, how it works and all the different ways in which it can be used.
 This concept page will therefore give you a detailed explanation of how the printf function works and that will go a long way to help you understand what it takes to create a custom version of it.
 
-Here is the outline for the concept page covered:
+### Concepts
+For this project, we expect you to look at these concepts:
+- Group Projects
+- Pair Programming - How To
+- Flowcharts
+- Technical Writing
+- Printf function brief - What to know to create your own Printf function
+- All about Team Projects + Pairings + FAQ (A must read)
+
+#### Here is the outline for the concept page covered:
 1. Introduction to printf
 - Brief overview of printf and its role in C programming.
 - The format string: How printf uses format specifiers to control output.
@@ -45,7 +56,7 @@ Here is the outline for the concept page covered:
 For more info on the concept page outline listed above, check the link below.
 Printf function brief - What to know to create your own Printf function: https://intranet.alxswe.com/concepts/100034
 
-## Project Tasks
+                                    TASK QUESTIONS
 ### Task 0. I'm not going anywhere. You can print that wherever you want to. I'm here and I'm a Spur for life
 
 Write a function that produces output according to a format.
